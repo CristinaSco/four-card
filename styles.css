@@ -1,0 +1,124 @@
+
+body{
+  background-color: hsl(0, 0%, 98%);
+  padding: 50px;
+}
+
+.heading{
+  max-width: 450px;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2{
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+}
+
+.bold{
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+p{
+  font-weight: 200;
+  color:hsl(234, 12%, 34%);
+  font-size: 13px;
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+}
+
+.one{
+  border-top: 3px solid hsl(180, 62%, 55%);
+  box-shadow: 2px 2px 20px hsl(229, 6%, 66%);
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 20px 20px 0 20px;
+}
+
+.two{
+  border-top: 3px solid hsl(0, 78%, 62%);
+  box-shadow: 2px 2px 20px hsl(229, 6%, 66%);
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: white;
+  margin-bottom: 50px;
+  padding: 20px 20px 0 20px;
+}
+
+.three{
+  border-top: 3px solid hsl(34, 97%, 64%);
+  box-shadow: 2px 2px 20px hsl(229, 6%, 66%);
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 20px 20px 0 20px;
+}
+
+.four{
+  border-top: 3px solid hsl(212, 86%, 64%);
+  box-shadow: 2px 2px 20px hsl(229, 6%, 66%);
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 20px 20px 0 20px;
+}
+
+.icon{
+  height: 80px;
+  width:auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+img{
+  height: 50px;
+  width:auto;
+}
+
+.title{
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  text-align: left;
+}
+
+.description{
+  color: hsl(229, 6%, 66%);
+  text-align: left;
+}
+
+.horizontal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 767px){
+  .one , .three {
+    margin-bottom: 50px;
+  }
+
+  .heading{
+    max-width: 350px;
+  }
+}
